@@ -42,7 +42,7 @@ This is the frontend part of a simple Library Management System developed using 
     npm run dev
     ```
 
-5. To view the application in browser [Click Here](https://bookmanagement-react.netlify.app/)
+5. To view the application in browser [Click Here](https://formik-library-react.netlify.app/)
 
 
 ## Usage

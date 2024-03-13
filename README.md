@@ -14,11 +14,24 @@ This is the frontend part of a simple Library Management System developed using 
 - view a short biography of author
 
 
-## Technologies Used
+## Screenshots
+![book_detail](public/images/book_detail.png)
+<br />
 
-- React.js
-- Vite
-- Form Validation: Formik and Yup
+![atuhor_detail](public/images/author_detail.png)
+<br />
+
+![edit_book](public/images/edit_book.png)
+<br />
+
+![edit_author](public/images/edit_author.png)
+<br />
+
+![add_book](public/images/add_book.png)
+<br />
+
+![add_author](public/images/add_author.png)
+
 
 ## Setup Instructions
 

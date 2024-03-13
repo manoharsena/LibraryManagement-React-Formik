@@ -98,6 +98,7 @@ const EditAuthor = ({ id }) => {
                     className="form-control"
                     id="description"
                     name="author_bio"
+                    rows="5"
                   />
                   <ErrorMessage
                     name="author_bio"

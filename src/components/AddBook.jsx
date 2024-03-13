@@ -52,11 +52,11 @@ const AddBook = () => {
       onSubmit={handleSubmit}
     >
       <div className="back">
-        <Form className="container">
+        <Form className="container userWidth">
           <div className="row">
             <div className="col-sm-12 mt-2">
-              <label htmlFor="book_title" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Book Title:
+              <label htmlFor="book_title" className="col-sm-12 col-form-label text-white">
+                Book Title:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -70,8 +70,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="book_pub" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Published By:
+              <label htmlFor="book_pub" className="col-sm-12 col-form-label text-white">
+                Published By:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -85,8 +85,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="book_year" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Published Year:
+              <label htmlFor="book_year" className="col-sm-12 col-form-label text-white">
+                Published Year:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -100,8 +100,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="book_isbn" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Book ISBN:
+              <label htmlFor="book_isbn" className="col-sm-12 col-form-label text-white">
+                Book ISBN:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -115,8 +115,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="author_name" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Author Name:
+              <label htmlFor="author_name" className="col-sm-12 col-form-label text-white">
+                Author Name:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -130,8 +130,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="author_dob" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Author DOB:
+              <label htmlFor="author_dob" className="col-sm-12 col-form-label text-white">
+                Author DOB:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
@@ -145,14 +145,15 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="author_bio" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Author Bio:
+              <label htmlFor="author_bio" className="col-sm-12 col-form-label text-white">
+                Author Bio:<span className="text-danger">*</span>
               </label>
               <Field
-                type="text"
+                as="textarea"
                 className="form-control"
                 id="author"
                 name="author_bio"
+                rows="3"
               />
               <ErrorMessage
                 name="author_bio"
@@ -160,8 +161,8 @@ const AddBook = () => {
                 className="redText"
               />
 
-              <label htmlFor="book_image" className="col-sm-12 col-form-label">
-                <span className="text-danger">*</span> Book Image URL:
+              <label htmlFor="book_image" className="col-sm-12 col-form-label text-white">
+                Book Image URL:<span className="text-danger">*</span>
               </label>
               <Field
                 type="text"
